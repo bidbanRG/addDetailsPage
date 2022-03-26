@@ -258,7 +258,7 @@ const registerhandler = async () => {
          <Input placeholder = ' Cost per unit square meter' onChange = {(e) => setans({...ans,Cost:e.target.value})}/>
           <Header onClick = {detailshandler}> <h2> Submit </h2> </Header> 
           <Header onClick = {registerhandler}> <h2> Register </h2> </Header>
-          <h2> In Case you don't have a Land You can Register only with your Name </h2>
+          <h2> {`In Case you don't have a Land You can Register only with your Name`} </h2>
        </Box1>
     </App>
   )
